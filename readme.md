@@ -1,5 +1,8 @@
 # WDCC - server-side JavaScript, Node.js, Express & APIs
 
+## Description:
+Part 2 of the WDCC workshop series: learning to use HTML/CSS, Node.js, React, to develop a contacts app. Original description below.
+
 ## Links:
 
 * Link to slides: [tinyurl.com/wdcc-js-24](http://tinyurl.com/wdcc-js-24)
