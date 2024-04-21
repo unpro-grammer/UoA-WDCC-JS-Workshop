@@ -70,13 +70,13 @@ app.use(express.static("public"));
  * This route handler will respond to a GET request to the "/" path (e.g. http://localhost:3000/). It will
  * return an HTTP 200 (OK) response with the given JSON data.
  */
-app.get("/", (req, res) => {
-  /**
-   * res.json() will return a 200 OK response, with Content-Type = application/json, and a JSON string equal
-   * to the result of calling JSON.stringify() on the given JavaScript object.
-   */
-  return res.json({ message: "Hello, world!" });
-});
+// app.get("/", (req, res) => {
+//   /**
+//    * res.json() will return a 200 OK response, with Content-Type = application/json, and a JSON string equal
+//    * to the result of calling JSON.stringify() on the given JavaScript object.
+//    */
+//   return res.json({ message: "Hello, world!" });
+// });
 
 /**
  * This route handler will respond to a GET request to "/api/people" (e.g. http://localhost:3000/api/people).
